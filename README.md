@@ -1,4 +1,4 @@
-# CSV Homeowner-Names CSV Parser Application
+# Homeowner-Names CSV Parser Application
 
 A Laravel-based application for parsing homeowner information from CSV files.
 
@@ -41,7 +41,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-set App_URL in .env file to localhost 8000:
+set APP_URL in .env file to localhost 8000:
 
 ```
 APP_URL=http://127.0.0.1:8000
