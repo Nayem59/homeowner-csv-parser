@@ -47,6 +47,12 @@ set APP_URL in .env file to localhost 8000:
 APP_URL=http://127.0.0.1:8000
 ```
 
+since we are not using a database change the SESSION_DRIVER to 'file' in your .env
+
+```
+SESSION_DRIVER=file
+```
+
 ## Usage
 
 ### Web Interface
